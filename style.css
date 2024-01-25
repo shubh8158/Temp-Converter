@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins' sans-serif;
+    max-width: 100%;
+    background-color: rgb(238, 237, 237);
+}
+
+.main{
+    max-height: 100vh;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(151, 167, 205);
+    background: linear-gradient(120deg,orange,rgb(128, 187, 212));
+    margin: 50px auto;
+    color: white;
+    font-weight: 600;
+}
+.main h2{
+    text-align: center;
+    padding-top: 20px;
+}
+.cel input[type="number"]{
+    height: 30px;
+    width: 170px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+}
+.far input[type="number"]{
+    height: 30px;
+    width: 170px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+}
+.kel input[type="number"]{
+    height: 30px;
+    width: 170px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+}
+.cel,.far,.kel label{
+    font-size: 20px;
+    
+}
+.cel,.far,.kel{
+    margin:  40px auto;
+    text-align: center;
+}
+.btn button{
+    margin: 0 130px;
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+.footer{
+    text-align: center;
+    color: brown;
+}
